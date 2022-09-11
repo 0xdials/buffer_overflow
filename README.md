@@ -1,7 +1,8 @@
 # buffer_overflow
 
 Collection of python2/3 scripts to use as a framework for OSCP. 
-(Note that working with raw bytes in python3 is not my favorite so a number of scripts use python)
+(Note that working with raw bytes in python3 is not my favorite so a number of scripts use python2)
+
 
 
 ### bad_characters.py
