@@ -1,3 +1,5 @@
+## outdated - no more BoF on OSCP 
+
 # buffer_overflow
 
 Collection of python2/3 scripts to use as a framework for OSCP. 
