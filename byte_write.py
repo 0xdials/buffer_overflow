@@ -1,4 +1,4 @@
-#!/usr/bin/python2
+#!/usr/bin/env python2
  
 
 buff = "A" * 3892
