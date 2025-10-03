@@ -1,8 +1,6 @@
-## outdated - no more BoF on OSCP 
-
 # buffer_overflow
 
-Collection of python2/3 scripts to use as a framework for OSCP. 
+Collection of python2/3 scripts to use as a framework
 (Note that working with raw bytes in python3 is an absolute nightmare so a number of scripts use python2)
 
 
@@ -19,8 +17,8 @@ basic BoF exploit framework we all know and love.
 
 
 ### fuzzing_framework.py
-basic fuzzing framework we all know and love.
+fuzzing framework, its right in the title
 
 
 ### headers_BoF.py
-A framework that includes http headers and sends the buffer via the data portion of the HTTP request. Python2 because combining strings with raw bytes in python3 is an actual nightmare. 
+A framework that includes http headers and sends the buffer via the data portion of the request. Python2 because combining strings with raw bytes in python3 is hell on earth. 
